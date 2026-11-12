@@ -1,0 +1,12 @@
+
+
+public class MenorDeEdadException extends Exception {
+	public MenorDeEdadException (String mensaje){
+		super(mensaje); 
+	}
+	public MenorDeEdadException (){
+		super("La persona debe tener al menos 18 años");
+	}
+
+}
+
